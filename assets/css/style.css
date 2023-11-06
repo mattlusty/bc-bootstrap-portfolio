@@ -29,6 +29,15 @@ body {
   /* border: 1px red solid; */
 }
 
+/* for pushing the about section below the hero background image */
+.spacetaker {
+  height: calc(500px - 96px);
+}
+
+.about .content {
+  /* background-color: rgba(250, 235, 215, 0.598); */
+}
+
 /* sm breakpoint */
 @media only screen and (min-width: 576px) {
   .hero {
@@ -50,7 +59,7 @@ body {
 }
 
 /* lg breakpoint */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
   .about {
     background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.277)),
       url(../images/explorer1500W.jpg);
@@ -62,4 +71,4 @@ body {
   .about .content {
     background-color: rgba(250, 235, 215, 0.345);
   }
-}
+} */
