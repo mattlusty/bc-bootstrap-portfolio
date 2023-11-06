@@ -17,6 +17,9 @@ body {
 /* not needed and actually not wanted - because nav <ul> is no longer to its right - and in small screens its actually in the middle! */
 .navbar-brand {
   margin-right: 0;
+  font-family: Agbalumo;
+  font-size: 2rem;
+  letter-spacing: 3px;
 }
 
 .hero {
@@ -39,8 +42,8 @@ body {
   height: calc(500px - 96px);
 }
 
-.about .content {
-  /* background-color: rgba(250, 235, 215, 0.598); */
+.about h2 {
+  font-family: Agbalumo;
 }
 
 /* sm breakpoint */
