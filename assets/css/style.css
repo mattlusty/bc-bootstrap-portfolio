@@ -41,8 +41,7 @@ body {
 
 .hero {
   position: absolute;
-  border: 2px red solid;
-  /* height: 100%; */
+  /* border: 2px red solid; */
   height: 1000px;
   width: 100%;
   /* background-image: url(../images/explorer1500W.jpg); */
