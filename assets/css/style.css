@@ -46,6 +46,12 @@ body {
   font-family: Agbalumo;
 }
 
+/* About Me Section blended with Hero Section - Semi-solved but as soon as you put additional sections below issues arise - and the solution shows to be messy - TRY ADDING background to the Skills Section below */
+.skills {
+  height: 500px;
+  /* background-color: aquamarine; */
+}
+
 /* sm breakpoint */
 @media only screen and (min-width: 576px) {
   /* not required - but I like to keep breakpoints visual in the code as a helper / reminder */
