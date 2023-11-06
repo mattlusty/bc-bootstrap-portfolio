@@ -5,6 +5,15 @@ body {
   line-height: 1.7;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler span {
+  height: 1.5rem;
+  width: 40px;
+}
+
 .hero {
   height: 500px;
   background-image: linear-gradient(
@@ -18,10 +27,6 @@ body {
   background-position-y: bottom;
   background-position-x: right;
   /* border: 1px red solid; */
-}
-
-.about .content {
-  /* background-color: rgba(250, 235, 215, 0.598); */
 }
 
 /* sm breakpoint */
