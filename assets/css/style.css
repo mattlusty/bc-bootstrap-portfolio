@@ -5,23 +5,56 @@ body {
   line-height: 1.7;
 }
 
-.about {
-  background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.277)),
+.hero {
+  height: 500px;
+  background-image: linear-gradient(
+      to top,
+      rgb(33, 37, 41),
+      rgb(33, 37, 41, 0.9) 20%,
+      rgba(0, 0, 0, 0) 50%
+    ),
     url(../images/explorer1500W.jpg);
   background-size: cover;
-  background-position: bottom;
-  background-position-y: 30%;
+  background-position-y: bottom;
+  background-position-x: right;
+  /* border: 1px red solid; */
 }
 
 .about .content {
-  /* border: 1px solid black; */
-
-  background-color: rgba(250, 235, 215, 0.598);
+  /* background-color: rgba(250, 235, 215, 0.598); */
 }
 
+/* sm breakpoint */
+@media only screen and (min-width: 576px) {
+  .hero {
+    background-position-y: 30%;
+  }
+}
+
+/* md breakpoint */
 @media only screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        to top,
+        rgb(33, 37, 41),
+        rgb(33, 37, 41, 0.9) 20%,
+        rgba(0, 0, 0, 0) 50%
+      ),
+      url(../images/explorer1500W.jpg);
+  }
+}
+
+/* lg breakpoint */
+@media only screen and (min-width: 992px) {
+  .about {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.277)),
+      url(../images/explorer1500W.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-position-y: 30%;
+  }
+
   .about .content {
-    /* border: 1px solid black; */
     background-color: rgba(250, 235, 215, 0.345);
   }
 }
