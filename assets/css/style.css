@@ -14,6 +14,11 @@ body {
   width: 40px;
 }
 
+/* not needed and actually not wanted - because nav <ul> is no longer to its right - and in small screens its actually in the middle! */
+.navbar-brand {
+  margin-right: 0;
+}
+
 .hero {
   height: 500px;
   background-image: linear-gradient(
@@ -40,21 +45,21 @@ body {
 
 /* sm breakpoint */
 @media only screen and (min-width: 576px) {
+  /* not required - but I like to keep breakpoints visual in the code as a helper / reminder */
+}
+
+/* md breakpoint */
+@media only screen and (min-width: 768px) {
+  /* prevents figure in background image rising and becoming obscured by nav */
   .hero {
     background-position-y: 30%;
   }
 }
 
-/* md breakpoint */
-@media only screen and (min-width: 768px) {
+/* lg breakpoint */
+@media only screen and (min-width: 992px) {
   .hero {
-    background-image: linear-gradient(
-        to top,
-        rgb(33, 37, 41),
-        rgb(33, 37, 41, 0.9) 20%,
-        rgba(0, 0, 0, 0) 50%
-      ),
-      url(../images/explorer1500W.jpg);
+    height: 776px;
   }
 }
 
