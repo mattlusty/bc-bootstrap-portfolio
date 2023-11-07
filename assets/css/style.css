@@ -189,6 +189,10 @@ h2 {
   height: 300px;
 }
 
+.work .card {
+  border-radius: 20px;
+}
+
 /* contact section */
 
 .contact {
