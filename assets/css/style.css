@@ -73,6 +73,17 @@ body {
   position: relative;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
 h2 {
   font-family: Agbalumo;
 }
@@ -146,6 +157,14 @@ h2 {
 
 .card.lusty-finance .frame {
   height: 300px;
+}
+
+/* contact section */
+
+.contact {
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
+  height: 500px;
+  background-color: rgb(44, 50, 55);
 }
 
 @media only screen and (min-width: 576px) {
