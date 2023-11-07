@@ -29,7 +29,6 @@ body {
   /* Bootstraps margin not needed and actually not wanted - because nav <ul> is no longer to its right - and in small screens its actually in the middle! */
   margin-right: 0;
   font-family: Agbalumo;
-  font-size: 2rem;
   letter-spacing: 3px;
 }
 
@@ -130,6 +129,13 @@ h2 {
 
 @media only screen and (min-width: 576px) {
   /* Bootstrap sm breakpoint */
+  .navbar img {
+    width: 80px;
+  }
+
+  .navbar-brand {
+    --bs-navbar-brand-font-size: 2rem;
+  }
 }
 
 @media only screen and (min-width: 768px) {
