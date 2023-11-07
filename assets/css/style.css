@@ -129,6 +129,25 @@ h2 {
   width: auto;
 }
 
+/* work projects */
+
+.card {
+  overflow: hidden;
+}
+
+.card .card-body {
+  min-height: 100px;
+}
+
+.work .card .frame {
+  overflow: visible;
+  height: 300px;
+}
+
+.card.lusty-finance .frame {
+  height: 300px;
+}
+
 @media only screen and (min-width: 576px) {
   /* Bootstrap sm breakpoint */
   .navbar-toggler span {
@@ -161,6 +180,9 @@ h2 {
     background-position-x: 100%;
     background-position-y: 100%;
   }
+  .card.lusty-finance .frame {
+    height: 400px;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -174,5 +196,8 @@ h2 {
   /* Bootstrap xxl breakpoint */
   .hero {
     background-position-y: 70%;
+  }
+  .card.lusty-finance .frame {
+    height: 600px;
   }
 }
