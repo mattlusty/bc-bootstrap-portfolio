@@ -193,7 +193,7 @@ h2 {
 
 .contact {
   font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
-  height: 500px;
+  /* height: 200px; */
   background-color: rgb(44, 50, 55);
 }
 
