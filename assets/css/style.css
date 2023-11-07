@@ -48,7 +48,7 @@ body {
   height: 1000px;
   position: absolute;
   /* nudge the background upwards */
-  top: -65px;
+  top: -150px;
   background-image: linear-gradient(
       to top,
       rgb(33, 37, 41, 1) 30%,
@@ -64,7 +64,7 @@ body {
 
 /* for pushing the about section below the hero background image */
 .spacer {
-  height: 550px;
+  height: 475px;
 }
 
 /* About Section */
