@@ -35,19 +35,30 @@ body {
 
 /* Hero Section */
 
-.hero {
+.hero-wrapper {
   position: absolute;
+  overflow: hidden;
   height: 1000px;
   width: 100%;
-  /* background-image: url(../images/explorer1500W.jpg); */
-  background-image: linear-gradient(to top, rgb(33, 37, 41, 1) 30%, rgba(0, 0, 0, 0) 50%),
+}
+
+.hero {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  /* nudge the background upwards */
+  top: -65px;
+  background-image: linear-gradient(
+      to top,
+      rgb(33, 37, 41, 1) 30%,
+
+      rgba(0, 0, 0, 0) 50%
+    ),
     url(../images/explorer1500W.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   /* align background image to start from the right */
   background-position: right;
-  /* nudge the background upwards */
-  background-position-y: -70px;
 }
 
 /* for pushing the about section below the hero background image */
@@ -117,55 +128,39 @@ h2 {
   width: auto;
 }
 
-/* sm breakpoint */
 @media only screen and (min-width: 576px) {
+  /* Bootstrap sm breakpoint */
 }
 
-/* md breakpoint */
 @media only screen and (min-width: 768px) {
-  /* not required - but I like to keep breakpoints visual in the code as a helper / reminder */
+  /* Bootstrap md breakpoint */
 }
 
-/* lg breakpoint */
 @media only screen and (min-width: 992px) {
+  /* Bootstrap lg breakpoint */
   .hero {
     background-position-x: 85%;
   }
 }
 
-/* xl breakpoint */
 @media only screen and (min-width: 1200px) {
+  /* Bootstrap xl breakpoint */
   .hero {
-    /* background-position-y: -200px; */
+    background-position-x: 100%;
+    background-position-y: 100%;
   }
 }
 
-/* lxl breakpoint */
 @media only screen and (min-width: 1300px) {
+  /* My Custom lxl breakpoint */
   .col-lxl-3 {
-    /* background-position-y: -200px; */
     width: 25%;
   }
 }
 
-/* xxl breakpoint */
 @media only screen and (min-width: 1400px) {
+  /* Bootstrap xxl breakpoint */
   .hero {
-    /* background-position-y: -200px; */
-  }
-}
-
-/* lg breakpoint */
-/* @media only screen and (min-width: 992px) {
-  .about {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.277)),
-      url(../images/explorer1500W.jpg);
-    background-size: cover;
-    background-position: bottom;
-    background-position-y: 30%;
-  }
-
-  .about .content {
-    background-color: rgba(250, 235, 215, 0.345);
+    background-position-y: 70%;
   }
 }
