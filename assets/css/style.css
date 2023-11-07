@@ -22,7 +22,7 @@ body {
 
 .navbar-toggler span {
   height: 1.5rem;
-  width: 40px;
+  width: 30px;
 }
 
 .navbar-brand {
@@ -30,6 +30,7 @@ body {
   margin-right: 0;
   font-family: Agbalumo;
   letter-spacing: 3px;
+  --bs-navbar-brand-font-size: 1rem;
 }
 
 /* Hero Section */
@@ -129,6 +130,9 @@ h2 {
 
 @media only screen and (min-width: 576px) {
   /* Bootstrap sm breakpoint */
+  .navbar-toggler span {
+    width: 40px;
+  }
   .navbar img {
     width: 80px;
   }
