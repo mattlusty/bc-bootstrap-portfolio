@@ -20,7 +20,7 @@
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-md bg-dark px-2 px-md-4" style="--bs-bg-opacity: 0.5">
       <button class="navbar-toggler p-2" type="button">
-        <span class="d-flex flex-column justify-content-between" style="width: 40px"
+        <span class="d-flex flex-column justify-content-between"
           ><div class="border-bottom border-light"></div>
           <div class="border-bottom border-light"></div>
           <div class="border-bottom border-light"></div
@@ -28,15 +28,16 @@
       </button>
       <h1><a class="navbar-brand text-light text-center" href="#">Matthew Lusty</a></h1>
       <ul class="navbar-nav collapse navbar-collapse justify-content-end me-3">
-        <li class="nav-item"><a href="#" class="nav-link text-light p-3">About Me</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-light p-3">Work</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-light p-3">Contact</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link text-light p-3">About Me</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link text-light p-3">Skills</a></li>
+        <li class="nav-item"><a href="#work" class="nav-link text-light p-3">Work</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link text-light p-3">Contact</a></li>
       </ul>
       <img
         class="rounded-circle"
         src="assets/images/avatar.png"
         alt="#"
-        width="80px"
+        width="50px"
         class="profile"
       />
     </nav>
@@ -44,7 +45,7 @@
     <div class="spacer d-lg-none"></div>
 
     <!-- About section -->
-    <div class="about mb-4 container-fluid px-5 p-lg-5">
+    <div class="about mb-4 container-fluid px-1 px-sm-5 p-lg-5" id="about">
       <div
         class="content col-lg-8 col-xl-7 p-3 p-lg-4 rounded-4 bg-dark text-light"
         style="--bs-bg-opacity: 0.5"
@@ -61,11 +62,11 @@
     </div>
 
     <!-- Skills section -->
-    <div class="skills mb-4 container-fluid px-5 px-md-5">
+    <div class="skills mb-4 container-fluid px-1 px-sm-5" id="skills">
       <div class="content col-lg-12 p-3 p-lg-4 rounded-4 text-light" style="--bs-bg-opacity: 0.5">
-        <h2 class="display-5 fw-bold">Skills</h2>
+        <h2 class="display-5 mb-3 fw-bold">Skills</h2>
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 col-lxl-3">
+          <div class="col-12 col-md-6 col-lxl-3">
             <div class="card html mb-4">
               <div class="frame">
                 <img src="assets/images/html-logo3.png" class="card-img-top" alt="..." />
@@ -80,7 +81,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-lxl-3">
+          <div class="col-12 col-md-6 col-lxl-3">
             <div class="card css mb-4">
               <div class="frame">
                 <img src="assets/images/css-logo.jpeg" class="card-img-top" alt="..." />
@@ -95,7 +96,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-lxl-3">
+          <div class="col-12 col-md-6 col-lxl-3">
             <div class="card js mb-4">
               <div class="frame">
                 <img src="assets/images/js-logo3.jpg" class="card-img-top" alt="..." />
@@ -110,7 +111,7 @@
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4 col-lxl-3">
+          <div class="col-12 col-md-6 col-lxl-3">
             <div class="card git mb-4">
               <div class="frame">
                 <img src="assets/images/git-logo2.png" class="card-img-top" alt="..." />
@@ -123,6 +124,101 @@
                 </p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work section -->
+    <div class="work mb-4 container-fluid px-1 px-sm-5" id="work">
+      <div class="content col-lg-12 p-3 p-lg-4" style="--bs-bg-opacity: 0.5">
+        <h2 class="display-5 mb-3 text-light fw-bold">Work</h2>
+        <div class="row">
+          <div class="col-12">
+            <div class="card lusty-finance mb-4">
+              <div class="frame">
+                <img src="assets/images/lusty-finance.png" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body text-light bg-dark" style="--bs-bg-opacity: 0.9">
+                <h5 class="card-title">Lusty Financial</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="card mb-4">
+              <div class="frame">
+                <img src="assets/images/imind.png" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body text-light bg-dark" style="--bs-bg-opacity: 0.9">
+                <h5 class="card-title">iMind</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="card mb-4">
+              <div class="frame">
+                <img src="assets/images/gift.jpg" class="card-img-top" alt="..." />
+              </div>
+              <div class="card-body text-light bg-dark" style="--bs-bg-opacity: 0.9">
+                <h5 class="card-title">Wish Listy</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact section -->
+
+    <div
+      class="contact container-fluid mb-4 px-1 px-sm-5 py-5 d-flex align-items-center"
+      id="contact"
+    >
+      <div class="col-12 p-3 p-lg-4">
+        <div class="row text-center">
+          <div class="address col-12 col-md-4 mb-5 mb-md-0">
+            <div class="card shadow h-100 pb-4">
+              <h4
+                class="bg-light text-uppercase border-black border-top border-bottom my-3 mt-5 py-2"
+              >
+                Address
+              </h4>
+              79 Swan Lane
+              <br />
+              Elmbridge
+            </div>
+          </div>
+          <div class="email col-12 col-md-4 mb-5 mb-md-0">
+            <div class="card shadow h-100 pb-4">
+              <h4
+                class="bg-light text-uppercase border-black border-top border-bottom my-3 mt-5 py-2"
+              >
+                Email
+              </h4>
+              <p>mattlusty@example.com</p>
+            </div>
+          </div>
+          <div class="phone col-12 col-md-4 mb-5 mb-md-0">
+            <div class="card shadow h-100 pb-4">
+              <h4
+                class="bg-light text-uppercase border-black border-top border-bottom my-3 mt-5 py-2"
+              >
+                Phone
+              </h4>
+              <p>+44 7893 4328</p>
             </div>
           </div>
         </div>
