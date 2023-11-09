@@ -142,32 +142,7 @@ h2 {
 }
 
 .skills .card img {
-  position: absolute;
-}
-
-.skills .card.html img {
-  position: absolute;
-  top: 0px;
-  height: 100%;
-  width: auto;
-}
-
-.skills .card.css img {
-  position: absolute;
-  height: 100%;
-  width: auto;
-}
-
-.skills .card.js img {
-  position: absolute;
-  height: 100%;
-  width: auto;
-}
-
-.skills .card.git img {
-  position: absolute;
-  height: 100%;
-  width: auto;
+  object-fit: cover;
 }
 
 /* work projects */
