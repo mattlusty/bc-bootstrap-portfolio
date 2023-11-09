@@ -163,6 +163,22 @@ h2 {
   height: 400px;
 }
 
+.work .card img {
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.work #wish-listy.card img {
+  object-position: top;
+}
+
+.work .card-body {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
 /* contact section */
 
 .contact {
