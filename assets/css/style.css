@@ -147,12 +147,8 @@ h2 {
 
 /* work projects */
 
-.card {
+.work .card {
   overflow: hidden;
-}
-
-.card .card-body {
-  min-height: 100px;
 }
 
 .work .card {
@@ -174,6 +170,7 @@ h2 {
 }
 
 .work .card-body {
+  min-height: 100px;
   position: absolute;
   width: 100%;
   bottom: 0;
