@@ -155,17 +155,12 @@ h2 {
   min-height: 100px;
 }
 
-.work .card .frame {
-  overflow: visible;
-  height: 300px;
-}
-
-.card.lusty-finance .frame {
-  height: 300px;
+.work .card {
+  border-radius: 20px;
 }
 
 .work .card {
-  border-radius: 20px;
+  height: 400px;
 }
 
 /* contact section */
