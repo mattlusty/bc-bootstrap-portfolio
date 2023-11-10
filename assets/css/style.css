@@ -159,6 +159,7 @@ h2 {
   height: 100%;
   object-fit: cover;
   object-position: top left;
+  cursor: pointer;
 }
 
 .work #wish-listy.card img {
